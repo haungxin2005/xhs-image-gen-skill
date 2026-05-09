@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "workspace_root": "",
+  "output_root": "",
+  "publish_dir": "",
+  "xhs_downloader_dir": "",
+  "feishu": {
+    "base_url": "",
+    "base_token": "",
+    "account_table_id": "",
+    "task_table_id": "",
+    "account_fields": {
+      "name": "",
+      "template_images": "",
+      "homepage": "",
+      "report_price": "",
+      "direct_price": "",
+      "original_price": "",
+      "followers": ""
+    },
+    "task_fields": {
+      "summary": "",
+      "account": "",
+      "source_url": "",
+      "source_images": "",
+      "generated_images": "",
+      "status": "",
+      "failure_reason": "",
+      "notes": "",
+      "original_title": "",
+      "original_content": "",
+      "new_title": "",
+      "new_title_alternatives": "",
+      "title_formula": "",
+      "new_content": ""
+    },
+    "status_values": {
+      "generating": "生成中",
+      "done": "完成",
+      "partial": "部分完成",
+      "quota_exhausted": "配额用完",
+      "failed": "失败"
+    }
+  },
+  "accounts": {
+    "default_account": "",
+    "aliases_file": "cache/account-aliases.json"
+  },
+  "image_generation": {
+    "prefer_builtin_image_gen": true,
+    "fallback_openai_api": false,
+    "target_width": 1080,
+    "target_height": 1440
+  }
+}
